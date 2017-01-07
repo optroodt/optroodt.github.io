@@ -76,10 +76,10 @@ div#password {
     height: 36px;
     position: relative;
     background-image: url('../img/tank.png');
+    cursor: pointer;
 }
 
 .count {
-    /*color: white;*/
     width: 36px;
     height: 36px;
     position: relative;
@@ -113,28 +113,22 @@ div#password {
     width: 30px;
     height: 27px;
     margin: 4px 4px 4px 6px;
-    /*opacity: 0.5;*/
 }
 
 .on {
-    /*background-color: red;
-    border-radius: 50%;*/
     background-image: url('../img/dot.png');
-
 }
 
 .boss {
     position: absolute;
     width: 79px;
     height: 69px;
-    /*opacity: 0.5;
-    background-color: red;*/
+    cursor: pointer;
 }
 
 .boss.defeated {
     background-image: none;   
 }
-
 
 .b1 {
     top: 72px;
