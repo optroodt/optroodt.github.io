@@ -24,7 +24,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Everyday hacks">
 <meta property="og:title" content="Save a laptop webcam">
-<meta property="og:url" content="/save-a-laptop-webcam/">
+<meta property="og:url" content="https://optroodt.github.io/blog/save-a-laptop-webcam/">
 
 
   <meta property="og:description" content="Some time ago I received a broken laptop (HP G62 model A18ED). When I switched it on, the power LED and fans would go on, but that’s it. I hooked up an external screen to see if anything would happen but it did not. It was really dead so I decided to strip all potentially useful parts: RAM, Processor, keyboard, Wifi module and the webcam. I cut the connector cable of the webcam and figured it must be a USB webcam. I couldn’t find much information about it, but it reads:">
@@ -46,7 +46,7 @@
   
 
 
-<link rel="canonical" href="/save-a-laptop-webcam/">
+<link rel="canonical" href="https://optroodt.github.io/blog/save-a-laptop-webcam/">
 
 
 
@@ -63,7 +63,7 @@
 
 
 
-  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Everyday hacks Feed">
+  <link href="/blog/feed.xml" type="application/atom+xml" rel="alternate" title="Everyday hacks Feed">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script>
@@ -72,7 +72,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/blog/assets/css/main.css">
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
 
@@ -102,25 +102,25 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-        <a class="site-title" href="/">
+        <a class="site-title" href="/blog/">
           Everyday hacks
           
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a
-                href="/gameboy/"
+                href="/blog/gameboy/"
                 
                 
               >Game Boy</a>
             </li><li class="masthead__menu-item">
               <a
-                href="/year-archive/"
+                href="/blog/year-archive/"
                 
                 
               >Posts</a>
             </li><li class="masthead__menu-item">
               <a
-                href="/tags/"
+                href="/blog/tags/"
                 
                 
               >Tags</a>
@@ -154,15 +154,15 @@
 
   
     <div class="author__avatar">
-      <a href="/">
-        <img src="/assets/images/bio-foto.jpg" alt="Youri op 't Roodt" itemprop="image" class="u-photo">
+      <a href="https://optroodt.github.io/blog/">
+        <img src="/blog/assets/images/bio-foto.jpg" alt="Youri op 't Roodt" itemprop="image" class="u-photo">
       </a>
     </div>
   
 
   <div class="author__content">
     <h3 class="author__name p-name" itemprop="name">
-      <a class="u-url" rel="me" href="/" itemprop="url">Youri op 't Roodt</a>
+      <a class="u-url" rel="me" href="https://optroodt.github.io/blog/" itemprop="url">Youri op 't Roodt</a>
     </h3>
     
       <div class="author__bio p-note" itemprop="description">
@@ -273,7 +273,7 @@
       
         <header>
           <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="/save-a-laptop-webcam/" itemprop="url">Save a laptop webcam
+            <a href="https://optroodt.github.io/blog/save-a-laptop-webcam/" itemprop="url">Save a laptop webcam
 </a>
           </h1>
           
@@ -321,15 +321,15 @@
 
 <p>This is the back of the webcam:</p>
 
-<figure class=""><a href="/assets/images/129159695156_0.jpg" class="image-popup"><img src="/assets/images/129159695156_0.jpg" alt="" /></a></figure>
+<figure class=""><a href="/blog/assets/images/129159695156_0.jpg" class="image-popup"><img src="/blog/assets/images/129159695156_0.jpg" alt="" /></a></figure>
 
 <p>And the front:</p>
 
-<figure class=""><a href="/assets/images/129159695156_1.jpg" class="image-popup"><img src="/assets/images/129159695156_1.jpg" alt="" /></a></figure>
+<figure class=""><a href="/blog/assets/images/129159695156_1.jpg" class="image-popup"><img src="/blog/assets/images/129159695156_1.jpg" alt="" /></a></figure>
 
 <p>The other end of the cable after I stripped it:</p>
 
-<figure class=""><a href="/assets/images/129159695156_2.jpg" class="image-popup"><img src="/assets/images/129159695156_2.jpg" alt="" /></a></figure>
+<figure class=""><a href="/blog/assets/images/129159695156_2.jpg" class="image-popup"><img src="/blog/assets/images/129159695156_2.jpg" alt="" /></a></figure>
 
 <p>The meaning of the individual cables is clearly marked on the back and apparently this camera requires 3.9 volts instead of the normal 5 volts that USB supplies. The twisted pair contains the USB data channels. Time to build a little circuit that includes a voltage regulator!</p>
 
@@ -337,27 +337,27 @@
 
 <p>There are fixed voltage regulators, but I couldn’t find one that would bring me 3.9 volts, so I needed an adjustable voltage regulator. The <a href="http://www.reuk.co.uk/Using-The-LM317T-To-Regulate-Voltage.htm">LM317T</a> is just what I needed.</p>
 
-<figure class=""><a href="/assets/images/129159695156_3.jpg" class="image-popup"><img src="/assets/images/129159695156_3.jpg" alt="" /></a></figure>
+<figure class=""><a href="/blog/assets/images/129159695156_3.jpg" class="image-popup"><img src="/blog/assets/images/129159695156_3.jpg" alt="" /></a></figure>
 
 <p>The LM317T let’s you adjust the output voltage by adding resistors to your circuit.</p>
 
-<figure class=""><a href="/assets/images/129159695156_4.gif" class="image-popup"><img src="/assets/images/129159695156_4.gif" alt="" /></a></figure>
+<figure class=""><a href="/blog/assets/images/129159695156_4.gif" class="image-popup"><img src="/blog/assets/images/129159695156_4.gif" alt="" /></a></figure>
 
 <p>You can lookup which resistors you need <a href="http://www.reuk.co.uk/LM317-Voltage-Calculator.htm">here</a>. In order to get 3.9v I needed a 470Ω resistor for R1 and a 1000Ω for R2. Also note that the green wire (GND) does not need to be connected, just the red one (SHGND). I took apart a cheap Chinese lightning cable for the USB part and made this pretty little circuit. Sorry! :D</p>
 
-<figure class=""><a href="/assets/images/129159695156_5.jpg" class="image-popup"><img src="/assets/images/129159695156_5.jpg" alt="" /></a></figure>
+<figure class=""><a href="/blog/assets/images/129159695156_5.jpg" class="image-popup"><img src="/blog/assets/images/129159695156_5.jpg" alt="" /></a></figure>
 
 <p>I plugged it in and it was immediately recognised as an HP Webcam-101, made by Chicony Corp. So far, so good. Let’s start Photo Booth…</p>
 
-<figure class=""><a href="/assets/images/129159695156_6.png" class="image-popup"><img src="/assets/images/129159695156_6.png" alt="" /></a></figure>
+<figure class=""><a href="/blog/assets/images/129159695156_6.png" class="image-popup"><img src="/blog/assets/images/129159695156_6.png" alt="" /></a></figure>
 
 <p>Yup, seems about right.</p>
 
-<figure class=""><a href="/assets/images/129159695156_7.jpg" class="image-popup"><img src="/assets/images/129159695156_7.jpg" alt="" /></a></figure>
+<figure class=""><a href="/blog/assets/images/129159695156_7.jpg" class="image-popup"><img src="/blog/assets/images/129159695156_7.jpg" alt="" /></a></figure>
 
 <p>Just for show, I put it on a tripod. It’s actually hooked up to my MacBook Air here, but I did try it on the Raspberry Pi Model B and it’s recognised just fine under Raspbian. It’s fun to set it up as a surveillance camera using <a href="http://www.lavrsen.dk/foswiki/bin/view/Motion">motion</a>, but the camera quality is really bad in low light. I followed <a href="http://www.instructables.com/id/Raspberry-Pi-as-low-cost-HD-surveillance-camera/step7/Installing-the-motion-detection-software/">these</a> steps, except for the ones that concern the Raspberry Camera as I’m using a plain webcam.</p>
 
-<figure class=""><a href="/assets/images/129159695156_8.jpg" class="image-popup"><img src="/assets/images/129159695156_8.jpg" alt="" /></a></figure>
+<figure class=""><a href="/blog/assets/images/129159695156_8.jpg" class="image-popup"><img src="/blog/assets/images/129159695156_8.jpg" alt="" /></a></figure>
 
         
       </section>
@@ -374,15 +374,15 @@
     <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
     <span itemprop="keywords">
     
-      <a href="/tags/#lm317t" class="page__taxonomy-item p-category" rel="tag">lm317t</a><span class="sep">, </span>
+      <a href="/blog/tags/#lm317t" class="page__taxonomy-item p-category" rel="tag">lm317t</a><span class="sep">, </span>
     
-      <a href="/tags/#motion" class="page__taxonomy-item p-category" rel="tag">motion</a><span class="sep">, </span>
+      <a href="/blog/tags/#motion" class="page__taxonomy-item p-category" rel="tag">motion</a><span class="sep">, </span>
     
-      <a href="/tags/#raspberrypi" class="page__taxonomy-item p-category" rel="tag">raspberrypi</a><span class="sep">, </span>
+      <a href="/blog/tags/#raspberrypi" class="page__taxonomy-item p-category" rel="tag">raspberrypi</a><span class="sep">, </span>
     
-      <a href="/tags/#reuse" class="page__taxonomy-item p-category" rel="tag">reuse</a><span class="sep">, </span>
+      <a href="/blog/tags/#reuse" class="page__taxonomy-item p-category" rel="tag">reuse</a><span class="sep">, </span>
     
-      <a href="/tags/#webcam" class="page__taxonomy-item p-category" rel="tag">webcam</a>
+      <a href="/blog/tags/#webcam" class="page__taxonomy-item p-category" rel="tag">webcam</a>
     
     </span>
   </p>
@@ -401,10 +401,10 @@
       
   <nav class="pagination">
     
-      <a href="/replacing-the-lens-module-of-a-playstation-3/" class="pagination--pager" title="Replacing the lens module of a PlayStation 3">Previous</a>
+      <a href="/blog/replacing-the-lens-module-of-a-playstation-3/" class="pagination--pager" title="Replacing the lens module of a PlayStation 3">Previous</a>
     
     
-      <a href="/replacing-the-screen-of-an-iphone-4/" class="pagination--pager" title="Replacing the screen of an iPhone 4">Next</a>
+      <a href="/blog/replacing-the-screen-of-an-iphone-4/" class="pagination--pager" title="Replacing the screen of an iPhone 4">Next</a>
     
   </nav>
 
@@ -432,7 +432,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/backlighting-a-game-boy-pocket-with-a-burnt-polarizer/" rel="permalink">Backlighting a Game Boy Pocket with a burnt polarizer
+        <a href="/blog/backlighting-a-game-boy-pocket-with-a-burnt-polarizer/" rel="permalink">Backlighting a Game Boy Pocket with a burnt polarizer
 </a>
       
     </h2>
@@ -479,7 +479,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/replacing-the-battery-on-a-game-boy-cartridge/" rel="permalink">Replacing the battery on a Game Boy cartridge
+        <a href="/blog/replacing-the-battery-on-a-game-boy-cartridge/" rel="permalink">Replacing the battery on a Game Boy cartridge
 </a>
       
     </h2>
@@ -526,7 +526,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/reflashing-multi-carts/" rel="permalink">Reflashing multi carts
+        <a href="/blog/reflashing-multi-carts/" rel="permalink">Reflashing multi carts
 </a>
       
     </h2>
@@ -573,7 +573,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/game-boy-advance-backlight-mod/" rel="permalink">Game Boy Advance backlight mod
+        <a href="/blog/game-boy-advance-backlight-mod/" rel="permalink">Game Boy Advance backlight mod
 </a>
       
     </h2>
@@ -652,19 +652,19 @@
     
 
     
-      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+      <li><a href="/blog/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
     
   </ul>
 </div>
 
 
-<div class="page__footer-copyright">&copy; 2012 - 2026 <a href="">Everyday hacks</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2012 - 2026 <a href="https://optroodt.github.io">Everyday hacks</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
 
     
-  <script src="/assets/js/main.min.js"></script>
+  <script src="/blog/assets/js/main.min.js"></script>
 
 
 
