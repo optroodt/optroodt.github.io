@@ -112,4 +112,10 @@ var store = [{
         "tags": ["gbp","backlight","japan4you","gameboypocket"],
         "url": "/blog/backlighting-a-game-boy-pocket-with-a-burnt-polarizer/",
         "teaser": null
+      },{
+        "title": "Adding a battery to a bootleg Game Boy cartridge",
+        "excerpt":"In recent years I haven’t been tinkering with Game Boys or bootlegs as much as I used to, but sometimes I do some Googling to see if there’s anything cool out there. Something that didn’t exist back in 2018 was the FlashCartDB, a Wiki that aims to gather as much...","categories": [],
+        "tags": ["gameboy","battery","bootleg","soldering"],
+        "url": "/blog/18-adding-a-battery-to-a-bootleg-cartridge/",
+        "teaser": null
       }]
