@@ -1,0 +1,698 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.27.3 by Michael Rose
+  Copyright 2013-2025 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en-US" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Hacking an old 36-78mm Canon lens into a macro lens - Everyday hacks</title>
+<meta name="description" content="Introduction">
+
+
+  <meta name="author" content="Youri op &#39;t Roodt">
+  
+  <meta property="article:author" content="Youri op &#39;t Roodt">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Everyday hacks">
+<meta property="og:title" content="Hacking an old 36-78mm Canon lens into a macro lens">
+<meta property="og:url" content="/hacking-an-old-36-78mm-canon-lens-into-a-macro-lens/">
+
+
+  <meta property="og:description" content="Introduction">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2012-05-21T14:08:00+02:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="/hacking-an-old-36-78mm-canon-lens-into-a-macro-lens/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Everyday hacks Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Everyday hacks
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/gameboy/"
+                
+                
+              >Game Boy</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/year-archive/"
+                
+                
+              >Posts</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/tags/"
+                
+                
+              >Tags</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="/">
+        <img src="/assets/images/bio-foto.jpg" alt="Youri op 't Roodt" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="/" itemprop="url">Youri op 't Roodt</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>I’m a software engineer from Amsterdam. I like to fiddle with things and make obsolete technology useful and fun again!</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Amsterdam</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/optroodt" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Hacking an old 36-78mm Canon lens into a macro lens">
+    <meta itemprop="description" content="Introduction">
+    <meta itemprop="datePublished" content="2012-05-21T14:08:00+02:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="/hacking-an-old-36-78mm-canon-lens-into-a-macro-lens/" itemprop="url">Hacking an old 36-78mm Canon lens into a macro lens
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2012-05-21T14:08:00+02:00">May 21, 2012</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h2 id="introduction">Introduction</h2>
+
+<p><strong>Hacking an old 36-78mm Canon lens into a macro lens</strong></p>
+
+<p>Recently my old analog EOS 300 camera’s shutter stopped working. I still had a bunch of films I wanted to shoot so I thought I’d buy a couple of these camera’s on Marktplaats. I found that they were really cheap (15-30 euros a piece) and decided to buy 2 of them. All I needed were the camera bodies but one came with a battery grip and the other with a 38-76mm lens. The camera’s are in fine condition, so all is good again, but what should I do with that lens? Since I have 17-85, 28-80, 18-55 and 50mm lenses, this one is rather useless to me. I tried it out but it’s noisy, slow and just sucks. :)</p>
+
+<p>Thankfully you can put such a lens to good use by converting it into a macro lens for close up shots! The lens will be manual focus only, and this hack is sort of reversible. Take a screw driver with a tiny tip and pry it under the sticker that has the canon text on it. It should be pretty easy to take off, but I didn’t manage to keep the sticket in one piece. Next you’ll see 3 screws exposed, unscrew those and put them in a safe place. You can then take out the front lens element, that’s all there is to it. The lens looks pretty horrible afterwards, but hey, it’s the picture that counts!</p>
+
+<p>The depth of field will be pretty shallow, so you will probably have to set the aperture to f22 or so for best results. Don’t forget to put the AF/MF switch to MF as the lens won’t be able to auto-focus anymore. If you half press the shutter release the camera will still bleep when the subject is in focus, that’s very helpful.</p>
+
+<p>Enjoy!</p>
+
+<figure class=""><a href="/assets/images/23476317121_0.jpg" class="image-popup" title="Camera with lens
+"><img src="/assets/images/23476317121_0.jpg" alt="" /></a><figcaption>
+      Camera with lens
+
+    </figcaption></figure>
+
+<figure class=""><a href="/assets/images/23476317121_1.jpg" class="image-popup" title="Getting the sticker off
+"><img src="/assets/images/23476317121_1.jpg" alt="" /></a><figcaption>
+      Getting the sticker off
+
+    </figcaption></figure>
+
+<figure class=""><a href="/assets/images/23476317121_2.jpg" class="image-popup" title="Screws revealed
+"><img src="/assets/images/23476317121_2.jpg" alt="" /></a><figcaption>
+      Screws revealed
+
+    </figcaption></figure>
+
+<figure class=""><a href="/assets/images/23476317121_3.jpg" class="image-popup" title="Unscrew the screws
+"><img src="/assets/images/23476317121_3.jpg" alt="" /></a><figcaption>
+      Unscrew the screws
+
+    </figcaption></figure>
+
+<figure class=""><a href="/assets/images/23476317121_4.jpg" class="image-popup" title="Front element removed
+"><img src="/assets/images/23476317121_4.jpg" alt="" /></a><figcaption>
+      Front element removed
+
+    </figcaption></figure>
+
+<figure class=""><a href="/assets/images/23476317121_5.jpg" class="image-popup" title="Front element
+"><img src="/assets/images/23476317121_5.jpg" alt="" /></a><figcaption>
+      Front element
+
+    </figcaption></figure>
+
+<figure class=""><a href="/assets/images/23476317121_6.jpg" class="image-popup" title="Tiny screw driver tips
+"><img src="/assets/images/23476317121_6.jpg" alt="" /></a><figcaption>
+      Tiny screw driver tips
+
+    </figcaption></figure>
+
+<figure class=""><a href="/assets/images/23476317121_7.jpg" class="image-popup" title="Power button of my Sony Jewel
+"><img src="/assets/images/23476317121_7.jpg" alt="" /></a><figcaption>
+      Power button of my Sony Jewel
+
+    </figcaption></figure>
+
+<figure class=""><a href="/assets/images/23476317121_8.jpg" class="image-popup" title="My cat Yoda
+"><img src="/assets/images/23476317121_8.jpg" alt="" /></a><figcaption>
+      My cat Yoda
+
+    </figcaption></figure>
+
+<figure class=""><a href="/assets/images/23476317121_9.jpg" class="image-popup" title="A penny
+"><img src="/assets/images/23476317121_9.jpg" alt="" /></a><figcaption>
+      A penny
+
+    </figcaption></figure>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#canon" class="page__taxonomy-item p-category" rel="tag">canon</a><span class="sep">, </span>
+    
+      <a href="/tags/#hack" class="page__taxonomy-item p-category" rel="tag">hack</a><span class="sep">, </span>
+    
+      <a href="/tags/#lens" class="page__taxonomy-item p-category" rel="tag">lens</a><span class="sep">, </span>
+    
+      <a href="/tags/#macro" class="page__taxonomy-item p-category" rel="tag">macro</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2012-05-21T14:08:00+02:00">May 21, 2012</time></p>
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="#" class="pagination--pager disabled">Previous</a>
+    
+    
+      <a href="/upgrading-1st-gen-appletv-to-play-full-hd/" class="pagination--pager" title="Upgrading 1st gen AppleTV to play Full HD">Next</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    
+<div class="page__related">
+  
+  <h2 class="page__related-title">You may also enjoy</h2>
+  <div class="grid__wrapper">
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/backlighting-a-game-boy-pocket-with-a-burnt-polarizer/" rel="permalink">Backlighting a Game Boy Pocket with a burnt polarizer
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2018-04-14T19:14:00+02:00">April 14, 2018</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          4 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">After the good experience I had with the Japanese Game Boy games from Japan 4 You I decided to pickup some cheap Game Boy Pockets. They list a lot of items a...</p>
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/replacing-the-battery-on-a-game-boy-cartridge/" rel="permalink">Replacing the battery on a Game Boy cartridge
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2018-04-14T18:18:00+02:00">April 14, 2018</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">I hang out in /r/Gameboy/ a lot and I see that quite a few people mention J4U or japan_4_you on eBay as their resource for buying Game Boy related stuff. The...</p>
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/reflashing-multi-carts/" rel="permalink">Reflashing multi carts
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2018-03-21T19:43:00+01:00">March 21, 2018</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Previously I had only reflashed single game cartridges, but it’s also possible to flash multi carts!They are being sold as 22-in-1 Pokemon carts, but the nam...</p>
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/game-boy-advance-backlight-mod/" rel="permalink">Game Boy Advance backlight mod
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2017-10-08T23:00:00+02:00">October 8, 2017</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">It’s been quiet for a while, busy playing Breath of the Wild and Mario Kart 8 Deluxe on the Nintendo Switch. I still follow what’s going on in the modding sc...</p>
+  </article>
+</div>
+
+    
+  </div>
+</div>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2012 - 2026 <a href="">Everyday hacks</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
