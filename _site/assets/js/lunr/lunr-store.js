@@ -113,6 +113,12 @@ var store = [{
         "url": "/blog/backlighting-a-game-boy-pocket-with-a-burnt-polarizer/",
         "teaser": null
       },{
+        "title": "Recapping a Sega Game Gear",
+        "excerpt":"I’ve always been a Nintendo kid, never had a Sega console. Wait, that’s not true, I still have the Dreamcast that I bought new when they went on sale. It has turned very yellow, unfortunately. Anyway, I’m digressing, the Sega Game Gear… It was big, it was bulky and the...","categories": [],
+        "tags": ["sega","gamegear","recap","soldering"],
+        "url": "/blog/15-recapping-a-sega-game-gear/",
+        "teaser": null
+      },{
         "title": "Adding a battery to a bootleg Game Boy cartridge",
         "excerpt":"In recent years I haven’t been tinkering with Game Boys or bootlegs as much as I used to, but sometimes I do some Googling to see if there’s anything cool out there. Something that didn’t exist back in 2018 was the FlashCartDB, a Wiki that aims to gather as much...","categories": [],
         "tags": ["gameboy","battery","bootleg","soldering"],
