@@ -116,12 +116,18 @@ var store = [{
         "title": "Recapping a Sega Game Gear",
         "excerpt":"I’ve always been a Nintendo kid, never had a Sega console. Wait, that’s not true, I still have the Dreamcast that I bought new when they went on sale. It has turned very yellow, unfortunately. Anyway, I’m digressing, the Sega Game Gear… It was big, it was bulky and the...","categories": [],
         "tags": ["sega","gamegear","recap","soldering"],
-        "url": "/blog/15-recapping-a-sega-game-gear/",
+        "url": "/blog/recapping-a-sega-game-gear/",
+        "teaser": null
+      },{
+        "title": "Batteryless saves for GBA",
+        "excerpt":"Back when the original DMG was released, flash chips were prohibitively expensive to use as storage medium for video games. In order to still be able to retain data, a so called SRAM chip was used. This chip retains its contents, but requires constant power, even when the console is...","categories": [],
+        "tags": ["game boy advance","gba","batteryless save","bootleg","ips patch"],
+        "url": "/blog/batteryless-saves-for-gba/",
         "teaser": null
       },{
         "title": "Adding a battery to a bootleg Game Boy cartridge",
         "excerpt":"In recent years I haven’t been tinkering with Game Boys or bootlegs as much as I used to, but sometimes I do some Googling to see if there’s anything cool out there. Something that didn’t exist back in 2018 was the FlashCartDB, a Wiki that aims to gather as much...","categories": [],
         "tags": ["gameboy","battery","bootleg","soldering"],
-        "url": "/blog/18-adding-a-battery-to-a-bootleg-cartridge/",
+        "url": "/blog/adding-a-battery-to-a-bootleg-cartridge/",
         "teaser": null
       }]
