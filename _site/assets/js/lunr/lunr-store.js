@@ -130,4 +130,10 @@ var store = [{
         "tags": ["gameboy","battery","bootleg","soldering"],
         "url": "/blog/adding-a-battery-to-a-bootleg-cartridge/",
         "teaser": null
+      },{
+        "title": "Replacing the Pebble 2 buttons with 3d printed ones",
+        "excerpt":"My first smartwatch was a Pebble (the Kickstarter edition!) and after that a Pebble 2 (also a Kickstarter edition) because of the heart rate monitor. I finally gave in to Apple when I finally bought an Apple Watch Series 3 in Japan back in 2018 which I still wear to...","categories": [],
+        "tags": ["pebble","3dprinting","smartwatch","watch"],
+        "url": "/blog/replacing-pebble-2-buttons-with-3d-printed-ones/",
+        "teaser": null
       }]
