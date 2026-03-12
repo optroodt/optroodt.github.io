@@ -131,6 +131,12 @@ var store = [{
         "url": "/blog/adding-a-battery-to-a-bootleg-cartridge/",
         "teaser": null
       },{
+        "title": "Repairing my son's Mr. Owl night light",
+        "excerpt":"My two-year-old son received a Mr. Owl (Meneer de Uil) night light as a gift from a dear friend of mine. There’s a button on the base that you need to hold for two seconds to turn it on or off and then It has various light settings: blue like...","categories": [],
+        "tags": ["nightlight","soldering"],
+        "url": "/blog/repairing-my-sons-mr-owl-nightlight/",
+        "teaser": null
+      },{
         "title": "Replacing the Pebble 2 buttons with 3d printed ones",
         "excerpt":"My first smartwatch was a Pebble (the Kickstarter edition!) and after that a Pebble 2 (also a Kickstarter edition) because of the heart rate monitor. I finally gave in to Apple when I finally bought an Apple Watch Series 3 in Japan back in 2018 which I still wear to...","categories": [],
         "tags": ["pebble","3dprinting","smartwatch","watch"],
