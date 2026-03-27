@@ -142,4 +142,10 @@ var store = [{
         "tags": ["pebble","3dprinting","smartwatch","watch"],
         "url": "/blog/replacing-pebble-2-buttons-with-3d-printed-ones/",
         "teaser": null
+      },{
+        "title": "Game Boy Color laminated IPS mod",
+        "excerpt":"Over the years I have accumulated quite a collection of Game Boys ranging from the original DMG to Game Boy Advance and DS Lite, there was one that was missing: The Game Boy Color. Although the GBA can play Game Boy Color games, the resolution of the screen is higher...","categories": [],
+        "tags": ["gameboy","gameboy color","ips","laminated","reshell","funnyplaying"],
+        "url": "/blog/game-boy-color-laminated-ips-mod/",
+        "teaser": null
       }]
