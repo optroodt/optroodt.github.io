@@ -1,0 +1,796 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.27.3 by Michael Rose
+  Copyright 2013-2025 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en-US" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Revisiting Game Boy multi-rom carts - Everyday hacks</title>
+<meta name="description" content="Multi-rom carts… I’ve look into one before in a previous post, but that was back in 2018 and a lot has changed in the mean time!">
+
+
+  <meta name="author" content="Youri op &#39;t Roodt">
+  
+  <meta property="article:author" content="Youri op &#39;t Roodt">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Everyday hacks">
+<meta property="og:title" content="Revisiting Game Boy multi-rom carts">
+<meta property="og:url" content="https://optroodt.github.io/blog/revisiting-game-boy-multi-rom-carts/">
+
+
+  <meta property="og:description" content="Multi-rom carts… I’ve look into one before in a previous post, but that was back in 2018 and a lot has changed in the mean time!">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2026-02-01T23:00:00+01:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://optroodt.github.io/blog/revisiting-game-boy-multi-rom-carts/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/blog/feed.xml" type="application/atom+xml" rel="alternate" title="Everyday hacks Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/blog/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/blog/">
+          Everyday hacks
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/blog/gameboy/"
+                
+                
+              >Game Boy</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/blog/year-archive/"
+                
+                
+              >Posts</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/blog/tags/"
+                
+                
+              >Tags</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="https://optroodt.github.io/blog/">
+        <img src="/blog/assets/images/bio-foto.jpg" alt="Youri op 't Roodt" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="https://optroodt.github.io/blog/" itemprop="url">Youri op 't Roodt</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>I’m a software engineer from Amsterdam. I like to fiddle with hardware and make obsolete technology useful and fun again!</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Amsterdam</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/optroodt" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.instagram.com/yourizuru/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">Instagram</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Revisiting Game Boy multi-rom carts">
+    <meta itemprop="description" content="Multi-rom carts… I’ve look into one before in a previous post, but that was back in 2018 and a lot has changed in the mean time!">
+    <meta itemprop="datePublished" content="2026-02-01T23:00:00+01:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="https://optroodt.github.io/blog/revisiting-game-boy-multi-rom-carts/" itemprop="url">Revisiting Game Boy multi-rom carts
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-02-01T23:00:00+01:00">February 1, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          8 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>Multi-rom carts… I’ve look into one before in a <a href="/blog/reflashing-multi-carts/">previous post</a>, but that was back in 2018 and <em>a lot</em> has changed in the mean time!</p>
+
+<p>I’ve always wanted to create a multi-rom cart that holds all my favorite games and supports saving for those that require it. In the past I used BennVenn’s multi-rom compiler (no longer listed on the original site, but can be found <a href="https://gbatemp.net/threads/how-to-create-a-gameboy-multicart-menu.540980/">here</a>) together with the <a href="https://bennvenn.myshopify.com/products/reader-writer-gen2?variant=19222674951">joey-joebags Gen3</a>. The software worked, but it was Windows only (which is not ideal for a MacOS/Linux person), it was clunky, changing the order was a pain and later generating a similar cartridge from scratch again took quite some effort.
+The 22-in-1 Pokémon cartridge I had back then required a solder bridge to be moved and after flashing some memory seemed to be corrupted as not all games would boot properly, which led to some careful planning and writing games multiple times, hoping at least one copy would boot. The save functionality also didn’t work anymore. All in all, it was a fun experiment, but it was far from perfect.</p>
+
+<p>I was <em>very</em> unaware of all the things that had happened in the community since, but these in particular piqued my interest:</p>
+<ul>
+  <li><a href="https://www.flashcartdb.com/">FlashCartDB</a>, a collection of flash carts and bootlegs out there, with PCB images and notes.</li>
+  <li><a href="https://github.com/simonkwng/GBFlash">GBFlash</a>, a cart reader/writer that is <em>very</em> fast!</li>
+  <li><a href="https://github.com/Lesserkuma/FlashGBX">FlashGBX</a>, a GUI tool for working with Game Boy (Advance) cartridges, that’s very easy to use and support a ton of cartridges, official and bootleg.</li>
+  <li><a href="https://github.com/Lesserkuma/256M_ROM_Builder">256M_ROM_Builder</a>, a tool for compiling multi-rom files to be flashed to multi-rom carts.</li>
+</ul>
+
+<p>All of this combined should make things so, so much easier and convenient. I took a gamble and ordered a few of the “22-in-1 Pokémon” carts to see if I would be able to reflash them.</p>
+
+<p>One of the cartridges failed to boot and only showed a garbled Nintendo logo. I tried three different consoles, and yes, I did blow into the cartridge too. 😉 After reporting it as broken, I was refunded within a few days.</p>
+<figure class=""><a href="/blog/assets/images/2026-02/IMG_5083.jpg" class="image-popup" title="Broken cartridge
+"><img src="/blog/assets/images/2026-02/IMG_5083.jpg" alt="" /></a><figcaption>
+      Broken cartridge
+
+    </figcaption></figure>
+
+<p>This is what they look like on the inside.</p>
+<figure class=""><a href="/blog/assets/images/2026-02/IMG_5070.jpg" class="image-popup" title="The PCB
+"><img src="/blog/assets/images/2026-02/IMG_5070.jpg" alt="" /></a><figcaption>
+      The PCB
+
+    </figcaption></figure>
+
+<p>After running <code class="language-plaintext highlighter-rouge">python 256m_rom_builder.py --title "Super Game Multi"</code> (more about the title later…), this is the resulting layout:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>256M ROM Builder v0.8
+by Lesserkuma
+
+Setting menu title to: SUPER GAME MULTI
+
+Found 72 ROM<span class="o">(</span>s<span class="o">)</span>
+
+Added 16 ROM<span class="o">(</span>s<span class="o">)</span> that use SRAM to the compilation
+Added 56 ROM<span class="o">(</span>s<span class="o">)</span> that <span class="k">do </span>not use SRAM to the compilation
+
+    | Title            | Offset    | Size     | Mapper | Parameters  | SRAM ID
+<span class="nt">----</span>+------------------+-----------+----------+--------+-------------+---------
+  1 | ALLEYWAY         | 0x0008000 | 0x008000 | None   | 01:FF:F0:00 |
+  2 | ASTEROIDS        | 0x0020000 | 0x008000 | None   | 04:FF:F0:00 |
+  3 | BALLOON KID      | 0x00E0000 | 0x020000 | MBC1   | 1C:FC:F0:00 |
+  4 | BATTLE UNIT ZEOT | 0x0100000 | 0x020000 | MBC1   | 20:FC:F0:00 |
+  5 | BATTLECITY       | 0x0028000 | 0x008000 | None   | 05:FF:F0:00 |
+  6 | BUBBLE GHOST     | 0x0030000 | 0x008000 | None   | 06:FF:F0:00 |
+  7 | CASTLEVANIA      | 0x0090000 | 0x010000 | MBC1   | 12:FE:F0:00 |
+  8 | CASTLEVANIA II   | 0x0120000 | 0x020000 | MBC1   | 24:FC:F0:00 |
+  9 | CONTRA           | 0x0140000 | 0x020000 | MBC1   | 28:FC:F0:00 |
+ 10 | DUCKTALES        | 0x00A0000 | 0x010000 | MBC1   | 14:FE:F0:00 |
+ 11 | DUCKTALES 2      | 0x0160000 | 0x020000 | MBC1   | 2C:FC:F0:00 |
+<span class="nt">----</span>+------------------+-----------+----------+--------+-------------+---------
+ 12 | DONKEY KONG      | 0x0E00000 | 0x080000 | MBC1   | C0:F0:91:01 | 7
+ 13 | DOUBLE DRAGON    | 0x0180000 | 0x020000 | MBC1   | 30:FC:F0:00 |
+ 14 | DOUBLE DRAGON II | 0x01A0000 | 0x020000 | MBC1   | 34:FC:F0:00 |
+ 15 | DOUBLE DRAGON 3  | 0x01C0000 | 0x020000 | MBC1   | 38:FC:F0:00 |
+ 16 | DR MARIO         | 0x0038000 | 0x008000 | None   | 07:FF:F0:00 |
+ 17 | F1 RACE          | 0x0200000 | 0x020000 | MBC2   | 40:FC:90:00 | 1
+ 18 | GAME AND WATCH   | 0x0400000 | 0x040000 | MBC1   | 80:F8:90:00 | 2
+ 19 | GEAR WORKS       | 0x01E0000 | 0x020000 | MBC1   | 3C:FC:F0:00 |
+ 20 | GHOSTBUSTERS II  | 0x0220000 | 0x020000 | MBC1   | 44:FC:F0:00 |
+ 21 | GRADIUS          | 0x0440000 | 0x040000 | MBC1   | 88:F8:F0:00 |
+ 22 | GUNS N RIDERS    | 0x0040000 | 0x008000 | None   | 08:FF:F0:00 |
+<span class="nt">----</span>+------------------+-----------+----------+--------+-------------+---------
+ 23 | HAL WRESTLING    | 0x0240000 | 0x020000 | MBC1   | 48:FC:F0:00 |
+ 24 | KID DRACULA      | 0x0480000 | 0x040000 | MBC1   | 90:F8:F0:00 |
+ 25 | KIRBY DREAM LAND | 0x04C0000 | 0x040000 | MBC1   | 98:F8:F0:00 |
+ 26 | KIRBY 2          | 0x1000000 | 0x080000 | MBC1   | 00:F0:92:10 | 8
+ 27 | KIRBY PINBALL    | 0x0600000 | 0x040000 | MBC2   | C0:F8:90:00 | 3
+ 28 | LUCKY LUKE       | 0x0500000 | 0x040000 | MBC1   | A0:F8:F0:00 |
+ 29 | MARIO PICROSS    | 0x0800000 | 0x040000 | MBC1   | 00:F8:91:01 | 4
+ 30 | MEGA MAN         | 0x0540000 | 0x040000 | MBC1   | A8:F8:F0:00 |
+ 31 | MEGA MAN II      | 0x0580000 | 0x040000 | MBC1   | B0:F8:F0:00 |
+ 32 | MEGA MAN III     | 0x05C0000 | 0x040000 | MBC1   | B8:F8:F0:00 |
+ 33 | MEGA MAN IV      | 0x0780000 | 0x080000 | MBC1   | F0:F0:F0:00 |
+<span class="nt">----</span>+------------------+-----------+----------+--------+-------------+---------
+ 34 | MEGA MAN V DX    | 0x0900000 | 0x100000 | MBC5   | 20:E0:F1:01 |
+ 35 | METROID II       | 0x0A00000 | 0x040000 | MBC1   | 40:F8:91:01 | 5
+ 36 | MOLE MANIA       | 0x1200000 | 0x080000 | MBC1   | 40:F0:92:10 | 9
+ 37 | MOLE MANIA DX    | 0x1A00000 | 0x100000 | MBC5   | 40:E0:93:11 | 13
+ 38 | MOTOCROSS MANIAC | 0x0048000 | 0x008000 | None   | 09:FF:F0:00 |
+ 39 | QIX              | 0x00B0000 | 0x010000 | MBC1   | 16:FE:F0:00 |
+ 40 | RTYPE            | 0x0260000 | 0x020000 | MBC1   | 4C:FC:F0:00 |
+ 41 | ROBOCOP 2        | 0x0280000 | 0x020000 | MBC1   | 50:FC:F0:00 |
+ 42 | ROBOCOP          | 0x02A0000 | 0x020000 | MBC1   | 54:FC:F0:00 |
+ 43 | SENSIBLE SOCCER  | 0x02C0000 | 0x020000 | MBC1   | 58:FC:F0:00 |
+ 44 | SNOW BROTHERS    | 0x02E0000 | 0x020000 | MBC1   | 5C:FC:F0:00 |
+<span class="nt">----</span>+------------------+-----------+----------+--------+-------------+---------
+ 45 | SUPER MARIO LAND | 0x00C0000 | 0x010000 | MBC1   | 18:FE:F0:00 |
+ 46 | MARIO LAND 2     | 0x1400000 | 0x080000 | MBC1   | 80:F0:92:10 | 10
+ 47 | SUPER RC PRO AM  | 0x0300000 | 0x020000 | MBC1   | 60:FC:F0:00 |
+ 48 | TENNIS           | 0x0050000 | 0x008000 | None   | 0A:FF:F0:00 |
+ 49 | TETRIS DX        | 0x1600000 | 0x080000 | MBC1   | C0:F0:92:10 | 11
+ 50 | TETRIS           | 0x0058000 | 0x008000 | None   | 0B:FF:F0:00 |
+ 51 | TRAX             | 0x0320000 | 0x020000 | MBC1   | 64:FC:F0:00 |
+ 52 | TRIP WORLD       | 0x0640000 | 0x040000 | MBC1   | C8:F8:F0:00 |
+ 53 | TEKKAMAN BLADE   | 0x0340000 | 0x020000 | MBC1   | 68:FC:F0:00 |
+ 54 | TMNT             | 0x0360000 | 0x020000 | MBC1   | 6C:FC:F0:00 |
+ 55 | TMNT II          | 0x0680000 | 0x040000 | MBC1   | D0:F8:F0:00 |
+<span class="nt">----</span>+------------------+-----------+----------+--------+-------------+---------
+ 56 | TMNT III         | 0x0380000 | 0x020000 | MBC1   | 70:FC:F0:00 |
+ 57 | WARIO BLAST      | 0x06C0000 | 0x040000 | MBC1   | D8:F8:F0:00 |
+ 58 | WARIO LAND       | 0x1800000 | 0x080000 | MBC1   | 00:F0:93:11 | 12
+ 59 | WARIO LAND II    | 0x1C00000 | 0x100000 | MBC3   | 80:E0:93:11 | 14
+ 60 | YOSHI            | 0x00D0000 | 0x010000 | MBC1   | 1A:FE:F0:00 |
+ 61 | YOSHIS COOKIE    | 0x03A0000 | 0x020000 | MBC1   | 74:FC:F0:00 |
+ 62 | LINKS AWAKENING  | 0x1E00000 | 0x100000 | MBC5   | C0:E0:93:11 | 15
+ 63 | ZEN              | 0x03C0000 | 0x020000 | MBC1   | 78:FC:F0:00 |
+ 64 | 2048             | 0x0060000 | 0x008000 | None   | 0C:FF:F0:00 |
+ 65 | BIG2SMALL        | 0x0010000 | 0x010000 | MBC5   | 02:FE:90:00 | 0
+ 66 | CHROMATIC TETRIS | 0x0C00000 | 0x040000 | MBC5   | 80:F8:91:01 | 6
+<span class="nt">----</span>+------------------+-----------+----------+--------+-------------+---------
+ 67 | DMG TEST PROG    | 0x0068000 | 0x008000 | None   | 0D:FF:F0:00 |
+ 68 | OUTRUN           | 0x0880000 | 0x080000 | MBC5   | 10:F0:F1:01 |
+ 69 | RETROID          | 0x0700000 | 0x040000 | MBC1   | E0:F8:F0:00 |
+ 70 | STOPWATCH        | 0x0070000 | 0x008000 | MBC5   | 0E:FF:F0:00 |
+ 71 | TREX             | 0x0078000 | 0x008000 | None   | 0F:FF:F0:00 |
+ 72 | TRAVELBIRD       | 0x0080000 | 0x008000 | None   | 10:FF:F0:00 |
+
+Used space: 15.84 MB
+Build <span class="nb">date</span>: 2026-02-01 14:33:28
+ROM code: 42B2
+
+Compilation ROM saved to “256MROMSET_42B2.gbc”
+
+Press ENTER to exit.
+
+</code></pre></div></div>
+
+<p>My plan was to create a multi cart with all my favorite games, games that I still want to play, ones that are considered good and also homebrew. I needed to have a label that would show different game types and be generic so that I wouldn’t have to change it if I decide to add more games. I also wanted it to be in a somewhat 90’s Japanese style, a bit bootleggy, but still high quality. ChatGPT did a great job here!</p>
+
+<figure class=""><a href="/blog/assets/images/2026-02/45313971-52CD-43D8-A6AE-937B256E90DC.jpg" class="image-popup" title="My custom label
+"><img src="/blog/assets/images/2026-02/45313971-52CD-43D8-A6AE-937B256E90DC.jpg" alt="" /></a><figcaption>
+      My custom label
+
+    </figcaption></figure>
+
+<p>The title <strong>Super Game Multi</strong> is obviously very broken, but since it added to the bootleg feel of it I decided to stick with it!</p>
+
+<p>Anyway, I now also have a GBFlash which I ordered off AliExpress, but it wasn’t entirely clear if I could flash the multi rom created with 256M_ROM_Builder to the cartridge with FlashGBX and a GBFlash.</p>
+
+<p>The <a href="https://github.com/Lesserkuma/256M_ROM_Builder/blob/main/README.md">README.md</a> doesn’t list GBFlash, nor the specific bootleg cartridge. There is also an <a href="https://github.com/Lesserkuma/256M_ROM_Builder/issues/3">issue</a> that doesn’t bode well.
+I gave it a try and it works without any issue. I created an <a href="https://github.com/Lesserkuma/256M_ROM_Builder/issues/7">issue</a> to let the creator know.</p>
+
+<figure class=""><a href="/blog/assets/images/2026-02/IMG_5082.jpg" class="image-popup" title="Flashing the cartridge
+"><img src="/blog/assets/images/2026-02/IMG_5082.jpg" alt="" /></a><figcaption>
+      Flashing the cartridge
+
+    </figcaption></figure>
+
+<p>BTW: The store I ordered the GBFlash from has since disappeared and there seem to be <a href="https://www.reddit.com/r/Gameboy/comments/1ftizfh/an_announcement_about_pirated_gbflash/">quite some bootlegs out there</a> that won’t operate at full speed or maybe don’t support the latest firmware, but mine works absolutely fine. I’m not sure what the current status is.</p>
+
+<p>I printed the label using my incredibly old <a href="https://www.wired.com/2008/06/polaroid-pogo-printer/">Polaroid Pogo</a> that still works and is actually perfect for these kind of applications. The colours are already in the paper, so the print is kind of laminated and it won’t smudge.</p>
+
+<figure class=""><a href="/blog/assets/images/2026-02/IMG_5852.jpg" class="image-popup" title="The final product
+"><img src="/blog/assets/images/2026-02/IMG_5852.jpg" alt="" /></a><figcaption>
+      The final product
+
+    </figcaption></figure>
+
+<p>I now have all my favourite games on a single cartridge, exactly how I wanted it. All I can say is that I’m very pleased with the result!</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/blog/tags/#bootleg" class="page__taxonomy-item p-category" rel="tag">bootleg</a><span class="sep">, </span>
+    
+      <a href="/blog/tags/#flashgbx" class="page__taxonomy-item p-category" rel="tag">flashgbx</a><span class="sep">, </span>
+    
+      <a href="/blog/tags/#gameboy" class="page__taxonomy-item p-category" rel="tag">gameboy</a><span class="sep">, </span>
+    
+      <a href="/blog/tags/#gbflash" class="page__taxonomy-item p-category" rel="tag">gbflash</a><span class="sep">, </span>
+    
+      <a href="/blog/tags/#lesserkuma" class="page__taxonomy-item p-category" rel="tag">lesserkuma</a><span class="sep">, </span>
+    
+      <a href="/blog/tags/#multicart" class="page__taxonomy-item p-category" rel="tag">multicart</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2026-02-01T23:00:00+01:00">February 1, 2026</time></p>
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/blog/repairing-my-sons-mr-owl-nightlight/" class="pagination--pager" title="Repairing my son’s Mr. Owl night light">Previous</a>
+    
+    
+      <a href="/blog/replacing-pebble-2-buttons-with-3d-printed-ones/" class="pagination--pager" title="Replacing the Pebble 2 buttons with 3d printed ones">Next</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    
+<div class="page__related">
+  
+  <h2 class="page__related-title">You may also enjoy</h2>
+  <div class="grid__wrapper">
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/game-boy-color-laminated-ips-mod/" rel="permalink">Game Boy Color laminated IPS mod
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-03-11T12:00:00+01:00">March 11, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Over the years I have accumulated quite a collection of Game Boys ranging from the original DMG to Game Boy Advance and DS Lite, there was one that was missi...</p>
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/replacing-pebble-2-buttons-with-3d-printed-ones/" rel="permalink">Replacing the Pebble 2 buttons with 3d printed ones
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-02-08T15:02:20+01:00">February 8, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">My first smartwatch was a Pebble (the Kickstarter edition!) and after that a Pebble 2 (also a Kickstarter edition) because of the heart rate monitor. I final...</p>
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/repairing-my-sons-mr-owl-nightlight/" rel="permalink">Repairing my son’s Mr. Owl night light
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2026-01-25T23:10:00+01:00">January 25, 2026</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">My two-year-old son received a Mr. Owl (Meneer de Uil) night light as a gift from a dear friend of mine. There’s a button on the base that you need to hold f...</p>
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/adding-a-battery-to-a-bootleg-cartridge/" rel="permalink">Adding a battery to a bootleg Game Boy cartridge
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-12-27T18:00:00+01:00">December 27, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">In recent years I haven’t been tinkering with Game Boys or bootlegs as much as I used to, but sometimes I do some Googling to see if there’s anything cool ou...</p>
+  </article>
+</div>
+
+    
+  </div>
+</div>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/blog/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2012 - 2026 <a href="https://optroodt.github.io">Everyday hacks</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/blog/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

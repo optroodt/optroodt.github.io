@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://optroodt.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://optroodt.github.io/blog/" rel="alternate" type="text/html" /><updated>2026-03-27T12:37:57+01:00</updated><id>https://optroodt.github.io/blog/feed.xml</id><title type="html">Everyday hacks</title><subtitle>An amazing website.</subtitle><author><name>Youri op &apos;t Roodt</name></author><entry><title type="html">Game Boy Color laminated IPS mod</title><link href="https://optroodt.github.io/blog/game-boy-color-laminated-ips-mod/" rel="alternate" type="text/html" title="Game Boy Color laminated IPS mod" /><published>2026-03-11T12:00:00+01:00</published><updated>2026-03-11T12:00:00+01:00</updated><id>https://optroodt.github.io/blog/game-boy-color-laminated-ips-mod</id><content type="html" xml:base="https://optroodt.github.io/blog/game-boy-color-laminated-ips-mod/"><![CDATA[<p>Over the years I have accumulated quite a collection of Game Boys ranging from the original DMG to Game Boy Advance and DS Lite, there was one that was missing: The Game Boy Color.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://optroodt.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://optroodt.github.io/blog/" rel="alternate" type="text/html" /><updated>2026-04-03T22:55:39+02:00</updated><id>https://optroodt.github.io/blog/feed.xml</id><title type="html">Everyday hacks</title><subtitle>An amazing website.</subtitle><author><name>Youri op &apos;t Roodt</name></author><entry><title type="html">Game Boy Color laminated IPS mod</title><link href="https://optroodt.github.io/blog/game-boy-color-laminated-ips-mod/" rel="alternate" type="text/html" title="Game Boy Color laminated IPS mod" /><published>2026-03-11T12:00:00+01:00</published><updated>2026-03-11T12:00:00+01:00</updated><id>https://optroodt.github.io/blog/game-boy-color-laminated-ips-mod</id><content type="html" xml:base="https://optroodt.github.io/blog/game-boy-color-laminated-ips-mod/"><![CDATA[<p>Over the years I have accumulated quite a collection of Game Boys ranging from the original DMG to Game Boy Advance and DS Lite, there was one that was missing: The Game Boy Color.
 Although the GBA can play Game Boy Color games, the resolution of the screen is higher than that of the GBC: <strong>240x160</strong> vs <strong>160x144</strong>. Since the image is not scaled when playing a GB/GBC game on a GBA, only part of the screen is used and thus results in a smaller image. The GBC’s screen is already a bit smaller than that of a DMG (2.3 inches vs 2.5 inches).
 I decided that I wanted a Game Boy Color and add an IPS screen to it, period.</p>
 
@@ -85,7 +85,169 @@ The other thing is that when the back light is on, there is a patch near the mid
 
 <p>The only functionality the watch is now missing is the water proofing.</p>
 
-<p><strong>Update</strong>: The unevenly lit patch has disappeared about a week later, it probably was some alcohol that needed to evaporate. All good! 💪</p>]]></content><author><name>Youri op &apos;t Roodt</name></author><category term="pebble" /><category term="3dprinting" /><category term="smartwatch" /><category term="watch" /><summary type="html"><![CDATA[My first smartwatch was a Pebble (the Kickstarter edition!) and after that a Pebble 2 (also a Kickstarter edition) because of the heart rate monitor. I finally gave in to Apple when I finally bought an Apple Watch Series 3 in Japan back in 2018 which I still wear to this day.]]></summary></entry><entry><title type="html">Repairing my son’s Mr. Owl night light</title><link href="https://optroodt.github.io/blog/repairing-my-sons-mr-owl-nightlight/" rel="alternate" type="text/html" title="Repairing my son’s Mr. Owl night light" /><published>2026-01-25T23:10:00+01:00</published><updated>2026-01-25T23:10:00+01:00</updated><id>https://optroodt.github.io/blog/repairing-my-sons-mr-owl-nightlight</id><content type="html" xml:base="https://optroodt.github.io/blog/repairing-my-sons-mr-owl-nightlight/"><![CDATA[<p>My two-year-old son received a Mr. Owl (Meneer de Uil) night light as a gift from a dear friend of mine. There’s a button on the base that you need to hold for two seconds to turn it on or off and then It has various light settings: blue like Mr. Owl and two or three levels of brightness of very unpleasant white light. You change the setting by tapping Mr. Owl and the light changes. Oh, and it has a built-in li-ion battery that can be recharged using the supplied micro-USB cable.</p>
+<p><strong>Update</strong>: The unevenly lit patch has disappeared about a week later, it probably was some alcohol that needed to evaporate. All good! 💪</p>]]></content><author><name>Youri op &apos;t Roodt</name></author><category term="pebble" /><category term="3dprinting" /><category term="smartwatch" /><category term="watch" /><summary type="html"><![CDATA[My first smartwatch was a Pebble (the Kickstarter edition!) and after that a Pebble 2 (also a Kickstarter edition) because of the heart rate monitor. I finally gave in to Apple when I finally bought an Apple Watch Series 3 in Japan back in 2018 which I still wear to this day.]]></summary></entry><entry><title type="html">Revisiting Game Boy multi-rom carts</title><link href="https://optroodt.github.io/blog/revisiting-game-boy-multi-rom-carts/" rel="alternate" type="text/html" title="Revisiting Game Boy multi-rom carts" /><published>2026-02-01T23:00:00+01:00</published><updated>2026-02-01T23:00:00+01:00</updated><id>https://optroodt.github.io/blog/revisiting-game-boy-multi-rom-carts</id><content type="html" xml:base="https://optroodt.github.io/blog/revisiting-game-boy-multi-rom-carts/"><![CDATA[<p>Multi-rom carts… I’ve look into one before in a <a href="/blog/reflashing-multi-carts/">previous post</a>, but that was back in 2018 and <em>a lot</em> has changed in the mean time!</p>
+
+<p>I’ve always wanted to create a multi-rom cart that holds all my favorite games and supports saving for those that require it. In the past I used BennVenn’s multi-rom compiler (no longer listed on the original site, but can be found <a href="https://gbatemp.net/threads/how-to-create-a-gameboy-multicart-menu.540980/">here</a>) together with the <a href="https://bennvenn.myshopify.com/products/reader-writer-gen2?variant=19222674951">joey-joebags Gen3</a>. The software worked, but it was Windows only (which is not ideal for a MacOS/Linux person), it was clunky, changing the order was a pain and later generating a similar cartridge from scratch again took quite some effort.
+The 22-in-1 Pokémon cartridge I had back then required a solder bridge to be moved and after flashing some memory seemed to be corrupted as not all games would boot properly, which led to some careful planning and writing games multiple times, hoping at least one copy would boot. The save functionality also didn’t work anymore. All in all, it was a fun experiment, but it was far from perfect.</p>
+
+<p>I was <em>very</em> unaware of all the things that had happened in the community since, but these in particular piqued my interest:</p>
+<ul>
+  <li><a href="https://www.flashcartdb.com/">FlashCartDB</a>, a collection of flash carts and bootlegs out there, with PCB images and notes.</li>
+  <li><a href="https://github.com/simonkwng/GBFlash">GBFlash</a>, a cart reader/writer that is <em>very</em> fast!</li>
+  <li><a href="https://github.com/Lesserkuma/FlashGBX">FlashGBX</a>, a GUI tool for working with Game Boy (Advance) cartridges, that’s very easy to use and support a ton of cartridges, official and bootleg.</li>
+  <li><a href="https://github.com/Lesserkuma/256M_ROM_Builder">256M_ROM_Builder</a>, a tool for compiling multi-rom files to be flashed to multi-rom carts.</li>
+</ul>
+
+<p>All of this combined should make things so, so much easier and convenient. I took a gamble and ordered a few of the “22-in-1 Pokémon” carts to see if I would be able to reflash them.</p>
+
+<p>One of the cartridges failed to boot and only showed a garbled Nintendo logo. I tried three different consoles, and yes, I did blow into the cartridge too. 😉 After reporting it as broken, I was refunded within a few days.</p>
+<figure class=""><a href="/blog/assets/images/2026-02/IMG_5083.jpg" class="image-popup" title="Broken cartridge
+"><img src="/blog/assets/images/2026-02/IMG_5083.jpg" alt="" /></a><figcaption>
+      Broken cartridge
+
+    </figcaption></figure>
+
+<p>This is what they look like on the inside.</p>
+<figure class=""><a href="/blog/assets/images/2026-02/IMG_5070.jpg" class="image-popup" title="The PCB
+"><img src="/blog/assets/images/2026-02/IMG_5070.jpg" alt="" /></a><figcaption>
+      The PCB
+
+    </figcaption></figure>
+
+<p>After running <code class="language-plaintext highlighter-rouge">python 256m_rom_builder.py --title "Super Game Multi"</code> (more about the title later…), this is the resulting layout:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>256M ROM Builder v0.8
+by Lesserkuma
+
+Setting menu title to: SUPER GAME MULTI
+
+Found 72 ROM<span class="o">(</span>s<span class="o">)</span>
+
+Added 16 ROM<span class="o">(</span>s<span class="o">)</span> that use SRAM to the compilation
+Added 56 ROM<span class="o">(</span>s<span class="o">)</span> that <span class="k">do </span>not use SRAM to the compilation
+
+    | Title            | Offset    | Size     | Mapper | Parameters  | SRAM ID
+<span class="nt">----</span>+------------------+-----------+----------+--------+-------------+---------
+  1 | ALLEYWAY         | 0x0008000 | 0x008000 | None   | 01:FF:F0:00 |
+  2 | ASTEROIDS        | 0x0020000 | 0x008000 | None   | 04:FF:F0:00 |
+  3 | BALLOON KID      | 0x00E0000 | 0x020000 | MBC1   | 1C:FC:F0:00 |
+  4 | BATTLE UNIT ZEOT | 0x0100000 | 0x020000 | MBC1   | 20:FC:F0:00 |
+  5 | BATTLECITY       | 0x0028000 | 0x008000 | None   | 05:FF:F0:00 |
+  6 | BUBBLE GHOST     | 0x0030000 | 0x008000 | None   | 06:FF:F0:00 |
+  7 | CASTLEVANIA      | 0x0090000 | 0x010000 | MBC1   | 12:FE:F0:00 |
+  8 | CASTLEVANIA II   | 0x0120000 | 0x020000 | MBC1   | 24:FC:F0:00 |
+  9 | CONTRA           | 0x0140000 | 0x020000 | MBC1   | 28:FC:F0:00 |
+ 10 | DUCKTALES        | 0x00A0000 | 0x010000 | MBC1   | 14:FE:F0:00 |
+ 11 | DUCKTALES 2      | 0x0160000 | 0x020000 | MBC1   | 2C:FC:F0:00 |
+<span class="nt">----</span>+------------------+-----------+----------+--------+-------------+---------
+ 12 | DONKEY KONG      | 0x0E00000 | 0x080000 | MBC1   | C0:F0:91:01 | 7
+ 13 | DOUBLE DRAGON    | 0x0180000 | 0x020000 | MBC1   | 30:FC:F0:00 |
+ 14 | DOUBLE DRAGON II | 0x01A0000 | 0x020000 | MBC1   | 34:FC:F0:00 |
+ 15 | DOUBLE DRAGON 3  | 0x01C0000 | 0x020000 | MBC1   | 38:FC:F0:00 |
+ 16 | DR MARIO         | 0x0038000 | 0x008000 | None   | 07:FF:F0:00 |
+ 17 | F1 RACE          | 0x0200000 | 0x020000 | MBC2   | 40:FC:90:00 | 1
+ 18 | GAME AND WATCH   | 0x0400000 | 0x040000 | MBC1   | 80:F8:90:00 | 2
+ 19 | GEAR WORKS       | 0x01E0000 | 0x020000 | MBC1   | 3C:FC:F0:00 |
+ 20 | GHOSTBUSTERS II  | 0x0220000 | 0x020000 | MBC1   | 44:FC:F0:00 |
+ 21 | GRADIUS          | 0x0440000 | 0x040000 | MBC1   | 88:F8:F0:00 |
+ 22 | GUNS N RIDERS    | 0x0040000 | 0x008000 | None   | 08:FF:F0:00 |
+<span class="nt">----</span>+------------------+-----------+----------+--------+-------------+---------
+ 23 | HAL WRESTLING    | 0x0240000 | 0x020000 | MBC1   | 48:FC:F0:00 |
+ 24 | KID DRACULA      | 0x0480000 | 0x040000 | MBC1   | 90:F8:F0:00 |
+ 25 | KIRBY DREAM LAND | 0x04C0000 | 0x040000 | MBC1   | 98:F8:F0:00 |
+ 26 | KIRBY 2          | 0x1000000 | 0x080000 | MBC1   | 00:F0:92:10 | 8
+ 27 | KIRBY PINBALL    | 0x0600000 | 0x040000 | MBC2   | C0:F8:90:00 | 3
+ 28 | LUCKY LUKE       | 0x0500000 | 0x040000 | MBC1   | A0:F8:F0:00 |
+ 29 | MARIO PICROSS    | 0x0800000 | 0x040000 | MBC1   | 00:F8:91:01 | 4
+ 30 | MEGA MAN         | 0x0540000 | 0x040000 | MBC1   | A8:F8:F0:00 |
+ 31 | MEGA MAN II      | 0x0580000 | 0x040000 | MBC1   | B0:F8:F0:00 |
+ 32 | MEGA MAN III     | 0x05C0000 | 0x040000 | MBC1   | B8:F8:F0:00 |
+ 33 | MEGA MAN IV      | 0x0780000 | 0x080000 | MBC1   | F0:F0:F0:00 |
+<span class="nt">----</span>+------------------+-----------+----------+--------+-------------+---------
+ 34 | MEGA MAN V DX    | 0x0900000 | 0x100000 | MBC5   | 20:E0:F1:01 |
+ 35 | METROID II       | 0x0A00000 | 0x040000 | MBC1   | 40:F8:91:01 | 5
+ 36 | MOLE MANIA       | 0x1200000 | 0x080000 | MBC1   | 40:F0:92:10 | 9
+ 37 | MOLE MANIA DX    | 0x1A00000 | 0x100000 | MBC5   | 40:E0:93:11 | 13
+ 38 | MOTOCROSS MANIAC | 0x0048000 | 0x008000 | None   | 09:FF:F0:00 |
+ 39 | QIX              | 0x00B0000 | 0x010000 | MBC1   | 16:FE:F0:00 |
+ 40 | RTYPE            | 0x0260000 | 0x020000 | MBC1   | 4C:FC:F0:00 |
+ 41 | ROBOCOP 2        | 0x0280000 | 0x020000 | MBC1   | 50:FC:F0:00 |
+ 42 | ROBOCOP          | 0x02A0000 | 0x020000 | MBC1   | 54:FC:F0:00 |
+ 43 | SENSIBLE SOCCER  | 0x02C0000 | 0x020000 | MBC1   | 58:FC:F0:00 |
+ 44 | SNOW BROTHERS    | 0x02E0000 | 0x020000 | MBC1   | 5C:FC:F0:00 |
+<span class="nt">----</span>+------------------+-----------+----------+--------+-------------+---------
+ 45 | SUPER MARIO LAND | 0x00C0000 | 0x010000 | MBC1   | 18:FE:F0:00 |
+ 46 | MARIO LAND 2     | 0x1400000 | 0x080000 | MBC1   | 80:F0:92:10 | 10
+ 47 | SUPER RC PRO AM  | 0x0300000 | 0x020000 | MBC1   | 60:FC:F0:00 |
+ 48 | TENNIS           | 0x0050000 | 0x008000 | None   | 0A:FF:F0:00 |
+ 49 | TETRIS DX        | 0x1600000 | 0x080000 | MBC1   | C0:F0:92:10 | 11
+ 50 | TETRIS           | 0x0058000 | 0x008000 | None   | 0B:FF:F0:00 |
+ 51 | TRAX             | 0x0320000 | 0x020000 | MBC1   | 64:FC:F0:00 |
+ 52 | TRIP WORLD       | 0x0640000 | 0x040000 | MBC1   | C8:F8:F0:00 |
+ 53 | TEKKAMAN BLADE   | 0x0340000 | 0x020000 | MBC1   | 68:FC:F0:00 |
+ 54 | TMNT             | 0x0360000 | 0x020000 | MBC1   | 6C:FC:F0:00 |
+ 55 | TMNT II          | 0x0680000 | 0x040000 | MBC1   | D0:F8:F0:00 |
+<span class="nt">----</span>+------------------+-----------+----------+--------+-------------+---------
+ 56 | TMNT III         | 0x0380000 | 0x020000 | MBC1   | 70:FC:F0:00 |
+ 57 | WARIO BLAST      | 0x06C0000 | 0x040000 | MBC1   | D8:F8:F0:00 |
+ 58 | WARIO LAND       | 0x1800000 | 0x080000 | MBC1   | 00:F0:93:11 | 12
+ 59 | WARIO LAND II    | 0x1C00000 | 0x100000 | MBC3   | 80:E0:93:11 | 14
+ 60 | YOSHI            | 0x00D0000 | 0x010000 | MBC1   | 1A:FE:F0:00 |
+ 61 | YOSHIS COOKIE    | 0x03A0000 | 0x020000 | MBC1   | 74:FC:F0:00 |
+ 62 | LINKS AWAKENING  | 0x1E00000 | 0x100000 | MBC5   | C0:E0:93:11 | 15
+ 63 | ZEN              | 0x03C0000 | 0x020000 | MBC1   | 78:FC:F0:00 |
+ 64 | 2048             | 0x0060000 | 0x008000 | None   | 0C:FF:F0:00 |
+ 65 | BIG2SMALL        | 0x0010000 | 0x010000 | MBC5   | 02:FE:90:00 | 0
+ 66 | CHROMATIC TETRIS | 0x0C00000 | 0x040000 | MBC5   | 80:F8:91:01 | 6
+<span class="nt">----</span>+------------------+-----------+----------+--------+-------------+---------
+ 67 | DMG TEST PROG    | 0x0068000 | 0x008000 | None   | 0D:FF:F0:00 |
+ 68 | OUTRUN           | 0x0880000 | 0x080000 | MBC5   | 10:F0:F1:01 |
+ 69 | RETROID          | 0x0700000 | 0x040000 | MBC1   | E0:F8:F0:00 |
+ 70 | STOPWATCH        | 0x0070000 | 0x008000 | MBC5   | 0E:FF:F0:00 |
+ 71 | TREX             | 0x0078000 | 0x008000 | None   | 0F:FF:F0:00 |
+ 72 | TRAVELBIRD       | 0x0080000 | 0x008000 | None   | 10:FF:F0:00 |
+
+Used space: 15.84 MB
+Build <span class="nb">date</span>: 2026-02-01 14:33:28
+ROM code: 42B2
+
+Compilation ROM saved to “256MROMSET_42B2.gbc”
+
+Press ENTER to exit.
+
+</code></pre></div></div>
+
+<p>My plan was to create a multi cart with all my favorite games, games that I still want to play, ones that are considered good and also homebrew. I needed to have a label that would show different game types and be generic so that I wouldn’t have to change it if I decide to add more games. I also wanted it to be in a somewhat 90’s Japanese style, a bit bootleggy, but still high quality. ChatGPT did a great job here!</p>
+
+<figure class=""><a href="/blog/assets/images/2026-02/45313971-52CD-43D8-A6AE-937B256E90DC.jpg" class="image-popup" title="My custom label
+"><img src="/blog/assets/images/2026-02/45313971-52CD-43D8-A6AE-937B256E90DC.jpg" alt="" /></a><figcaption>
+      My custom label
+
+    </figcaption></figure>
+
+<p>The title <strong>Super Game Multi</strong> is obviously very broken, but since it added to the bootleg feel of it I decided to stick with it!</p>
+
+<p>Anyway, I now also have a GBFlash which I ordered off AliExpress, but it wasn’t entirely clear if I could flash the multi rom created with 256M_ROM_Builder to the cartridge with FlashGBX and a GBFlash.</p>
+
+<p>The <a href="https://github.com/Lesserkuma/256M_ROM_Builder/blob/main/README.md">README.md</a> doesn’t list GBFlash, nor the specific bootleg cartridge. There is also an <a href="https://github.com/Lesserkuma/256M_ROM_Builder/issues/3">issue</a> that doesn’t bode well.
+I gave it a try and it works without any issue. I created an <a href="https://github.com/Lesserkuma/256M_ROM_Builder/issues/7">issue</a> to let the creator know.</p>
+
+<figure class=""><a href="/blog/assets/images/2026-02/IMG_5082.jpg" class="image-popup" title="Flashing the cartridge
+"><img src="/blog/assets/images/2026-02/IMG_5082.jpg" alt="" /></a><figcaption>
+      Flashing the cartridge
+
+    </figcaption></figure>
+
+<p>BTW: The store I ordered the GBFlash from has since disappeared and there seem to be <a href="https://www.reddit.com/r/Gameboy/comments/1ftizfh/an_announcement_about_pirated_gbflash/">quite some bootlegs out there</a> that won’t operate at full speed or maybe don’t support the latest firmware, but mine works absolutely fine. I’m not sure what the current status is.</p>
+
+<p>I printed the label using my incredibly old <a href="https://www.wired.com/2008/06/polaroid-pogo-printer/">Polaroid Pogo</a> that still works and is actually perfect for these kind of applications. The colours are already in the paper, so the print is kind of laminated and it won’t smudge.</p>
+
+<figure class=""><a href="/blog/assets/images/2026-02/IMG_5852.jpg" class="image-popup" title="The final product
+"><img src="/blog/assets/images/2026-02/IMG_5852.jpg" alt="" /></a><figcaption>
+      The final product
+
+    </figcaption></figure>
+
+<p>I now have all my favourite games on a single cartridge, exactly how I wanted it. All I can say is that I’m very pleased with the result!</p>]]></content><author><name>Youri op &apos;t Roodt</name></author><category term="gameboy" /><category term="multicart" /><category term="bootleg" /><category term="flashgbx" /><category term="gbflash" /><category term="lesserkuma" /><summary type="html"><![CDATA[Multi-rom carts… I’ve look into one before in a previous post, but that was back in 2018 and a lot has changed in the mean time!]]></summary></entry><entry><title type="html">Repairing my son’s Mr. Owl night light</title><link href="https://optroodt.github.io/blog/repairing-my-sons-mr-owl-nightlight/" rel="alternate" type="text/html" title="Repairing my son’s Mr. Owl night light" /><published>2026-01-25T23:10:00+01:00</published><updated>2026-01-25T23:10:00+01:00</updated><id>https://optroodt.github.io/blog/repairing-my-sons-mr-owl-nightlight</id><content type="html" xml:base="https://optroodt.github.io/blog/repairing-my-sons-mr-owl-nightlight/"><![CDATA[<p>My two-year-old son received a Mr. Owl (Meneer de Uil) night light as a gift from a dear friend of mine. There’s a button on the base that you need to hold for two seconds to turn it on or off and then It has various light settings: blue like Mr. Owl and two or three levels of brightness of very unpleasant white light. You change the setting by tapping Mr. Owl and the light changes. Oh, and it has a built-in li-ion battery that can be recharged using the supplied micro-USB cable.</p>
 
 <p>My son has never seen Daily Fable (De Fabeltjeskrant) but he instantly loved tapping Mr. Owl on the head and seeing the light change! 😆</p>
 
@@ -291,36 +453,4 @@ The ceramic capacitors are much smaller than the low quality electrolytic ones, 
 
 <p>But works fine on the real thing.</p>
 
-<figure class=""><a href="/blog/assets/images/172110223406_5.jpg" class="image-popup"><img src="/blog/assets/images/172110223406_5.jpg" alt="" /></a></figure>]]></content><author><name>Youri op &apos;t Roodt</name></author><category term="gameboy" /><category term="joeyjoebags" /><category term="bennvenn" /><category term="multicart" /><category term="pokemon" /><category term="dmg" /><summary type="html"><![CDATA[Previously I had only reflashed single game cartridges, but it’s also possible to flash multi carts!They are being sold as 22-in-1 Pokemon carts, but the names might vary.]]></summary></entry><entry><title type="html">Game Boy Advance backlight mod</title><link href="https://optroodt.github.io/blog/game-boy-advance-backlight-mod/" rel="alternate" type="text/html" title="Game Boy Advance backlight mod" /><published>2017-10-08T23:00:00+02:00</published><updated>2017-10-08T23:00:00+02:00</updated><id>https://optroodt.github.io/blog/game-boy-advance-backlight-mod</id><content type="html" xml:base="https://optroodt.github.io/blog/game-boy-advance-backlight-mod/"><![CDATA[<p>It’s been quiet for a while, busy playing Breath of the Wild and Mario Kart 8 Deluxe on the Nintendo Switch. I still follow what’s going on in the modding scene, I watch other people’s mods and occasionally pick up some cheap handhelds. A couple of things led me to doing a Game Boy Advance backlight mod, making it possibly the best retro handheld console there is! 1) using BennVenn’s <a href="https://bennvenn.myshopify.com/products/reader-writer-gen2">JoeyJoebags</a> you can flash Chinese knockoff cartridges 2) I found a NES emulator/rom compiler for GBA, and 3) the GBA is backwards compatible with the original Game Boy and Game Boy Color games.</p>
-
-<p>I’ll go into some more detail on each.</p>
-
-<p>1) I initially bought the JoeyJoebags to be able to flash homebrew to cartridges and play them on real hardware, which I’ll write about later. Never did I realise that you can actually reflash the Chinese GBA Pokemon clones, and other carts too. Most likely you’ll have to patch the ROM for it to work and save properly, but that’s okay. However, if your clone cartridge does not have a backup battery things get more complicated, which I’ll get into in again another post. Let’s just assume we can flash any rom for now.</p>
-
-<p>2) <a href="https://github.com/catskull/pocketnes">Pocketnes</a> is a great emulator that runs NES games in full speed on a GBA. It has been around for a very long time, but I never came across it as I wasn’t really into GBA consoles. It comes with an application that let’s you select your NES roms and it will compile a GBA rom that includes both the emulator and the NES roms you chose. I created a compilation of my favourite games as a kid, flashed it to a Pokemon cart and it’s absolute magic. I might write up a post specifically about Pocketnes, it’s really good.</p>
-
-<p>3) Because of it’s compatibility with older systems you have a ton of games at your disposal. Sure, you could play GB games on a backlight modded DMG or Pocket, but what about Game Boy Color? Yes, you can mod a <a href="https://www.retromodding.com/products/bennvenns-gbc-backlight-conversion-ribbon-cable-for-ags-101-lcd?variant=40387234957">GBC using AGS-101 screen</a>, but it’s pretty expensive and it hardly fits into the shell. So why limit yourself to just GB and GBC? You could pickup a Game Boy Advance SP with a backlight, that’s the AGS-101 model, but they are also pretty expensive and I don’t really like the form factor. It’s just too small for my liking. GBA it is!</p>
-
-<p>I picked up a couple of GBA’s on the cheap, really old and dirty ones. The one below was also missing the battery compartment lid.</p>
-
-<figure class=""><a href="/blog/assets/images/166192026036_0.jpg" class="image-popup"><img src="/blog/assets/images/166192026036_0.jpg" alt="" /></a></figure>
-
-<p>You can find <a href="https://nl.aliexpress.com/item/LCD-Backlight-Screen-For-GBA-Replacement-Parts-For-Nintendo-For-Game-Boy-Advance-SP-SP-For/32824956490.html?spm=a2g0s.9042311.0.0.C6Lt3L">AGS-101 replica screens for around 25 euro</a> nowadays. Depending on <a href="https://gist.github.com/grantland/8c112548b44aa87dced2">which model GBA</a> you have, you’ll also need a ribbon cable. Mine were all 40pin models, so I also ordered a couple of <a href="https://nl.aliexpress.com/item/6PCS-32Pin-40-Pin-A-B-For-GBA-Ribbon-Cable-AGS-101-Backlit-Highlit-Adapter-Screen/32717494592.html?spm=a2g0s.9042311.0.0.DTYqbO">Type B ribbon cables</a>. I also bought some <a href="https://nl.aliexpress.com/item/8pcs-Full-Housing-Shell-Case-Cover-Replacement-for-Nintendo-GBA-Gameboy-Advance-w-Sticker/32539235959.html?spm=a2g0s.9042311.0.0.DTYqbO">replacement shells</a> as you have to do some modifications and I like to keep the original shells, well, original.</p>
-
-<p>So, here goes!</p>
-
-<p>You have to remove some parts of the case or else the screen won’t fit or not sit straight.</p>
-
-<figure class=""><a href="/blog/assets/images/166192026036_1.jpg" class="image-popup"><img src="/blog/assets/images/166192026036_1.jpg" alt="" /></a></figure>
-
-<p>The screen’s ribbon cable together with the converter cable end up being quite long, so in order to fit everything you will have to fold the cable into a Z-shape. No sharp folds, just gently fold and stick it down with some tape.</p>
-
-<figure class=""><a href="/blog/assets/images/166192026036_2.jpg" class="image-popup"><img src="/blog/assets/images/166192026036_2.jpg" alt="" /></a></figure>
-
-<p>There is only one wire to be soldered, making it quite a convenient mod. You have to solder it to the upper left pad of DA-1.</p>
-
-<figure class=""><a href="/blog/assets/images/166192026036_3.jpg" class="image-popup"><img src="/blog/assets/images/166192026036_3.jpg" alt="" /></a></figure>
-
-<p>Put everyting together and give it a spin!</p>
-
-<figure class=""><a href="/blog/assets/images/166192026036_4.jpg" class="image-popup"><img src="/blog/assets/images/166192026036_4.jpg" alt="" /></a></figure>]]></content><author><name>Youri op &apos;t Roodt</name></author><category term="gameboy" /><category term="gba" /><category term="backlight" /><category term="modding" /><category term="handheld" /><category term="console" /><category term="ags101" /><summary type="html"><![CDATA[It’s been quiet for a while, busy playing Breath of the Wild and Mario Kart 8 Deluxe on the Nintendo Switch. I still follow what’s going on in the modding scene, I watch other people’s mods and occasionally pick up some cheap handhelds. A couple of things led me to doing a Game Boy Advance backlight mod, making it possibly the best retro handheld console there is! 1) using BennVenn’s JoeyJoebags you can flash Chinese knockoff cartridges 2) I found a NES emulator/rom compiler for GBA, and 3) the GBA is backwards compatible with the original Game Boy and Game Boy Color games.]]></summary></entry></feed>
+<figure class=""><a href="/blog/assets/images/172110223406_5.jpg" class="image-popup"><img src="/blog/assets/images/172110223406_5.jpg" alt="" /></a></figure>]]></content><author><name>Youri op &apos;t Roodt</name></author><category term="gameboy" /><category term="joeyjoebags" /><category term="bennvenn" /><category term="multicart" /><category term="pokemon" /><category term="dmg" /><summary type="html"><![CDATA[Previously I had only reflashed single game cartridges, but it’s also possible to flash multi carts!They are being sold as 22-in-1 Pokemon carts, but the names might vary.]]></summary></entry></feed>
